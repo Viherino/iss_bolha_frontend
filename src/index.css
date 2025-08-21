@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.listing-detail-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.listing-content {
+  flex: 2; /* Takes up 2/3 of the space */
+  padding-right: 20px;
+}
+
+.creator-info {
+  flex: 1; /* Takes up 1/3 of the space */
+  padding-left: 20px;
+  box-shadow: -2px 0 5px -2px rgba(0, 0, 0, 0.1); /* Subtle shadow on the left */
+}
+
+.listing-image-placeholder {
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.listing-details h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.listing-details p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.creator-info h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.creator-info p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.my-listing-card {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3), 0 0 0 2px rgba(0, 123, 255, 0.5); /* Blue shadow and border for owner's posts */
+  border: 1px solid #007bff; /* Optional: add a subtle border */
+}
